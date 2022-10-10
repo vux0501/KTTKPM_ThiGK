@@ -21,6 +21,14 @@ public class Order {
 	@Column(columnDefinition = "varchar(50)", nullable = true)
 	private String name;
 	private Double price;
+	public Order(String orderId, String name, Double price) {
+		super();
+		this.orderId = orderId;
+		this.name = name;
+		this.price = price;
+	}
+	
+	
 
 }
 
