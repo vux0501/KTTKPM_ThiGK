@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+D:\KTGK\19478651_NguyenHoangVu_42300154901_1\CAU_1\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+3236756412.index
+149205305.index

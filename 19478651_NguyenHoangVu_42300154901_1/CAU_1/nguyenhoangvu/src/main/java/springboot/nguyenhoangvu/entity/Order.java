@@ -1,0 +1,26 @@
+package springboot.nguyenhoangvu.entity;
+
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Entity
+@Table(name = "order_table")
+@Data
+@NoArgsConstructor
+public class Order {
+	@Id
+	@Column(columnDefinition = "varchar(5)", nullable = false)
+	private String orderId;
+	@Column(columnDefinition = "varchar(50)", nullable = true)
+	private String name;
+	private Double price;
+
+}
+
